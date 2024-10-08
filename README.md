@@ -1,1 +1,102 @@
-# christina-rodrigues
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christina Rodrigues - Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+        h2 {
+            color: #ff4081;
+            font-size: 2em;
+        }
+        p {
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        a {
+            color: #ff4081;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Christina Rodrigues</h1>
+        <p>Contemporary R&B and Pop Artist</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Christina Rodrigues is a Cape Verdean/Luxembourgish contemporary R&B and Pop artist. 
+            Her sound evokes the essence of her idols Cesaria Evora, Jill Scott, and Beyoncé. 
+            She finds light and joy in combining her smooth vocals with modern R&B productions 
+            and Afro elements. Melancholy and sadness are a major component of her songs as 
+            her music draws mostly from her live experiences and challenges as a person who 
+            is now coming into her own.
+        </p>
+    </section>
+
+    <section id="music">
+        <h2>Music</h2>
+        <p>
+            Explore my latest tracks and projects, where I blend modern R&B with rich Afro 
+            elements, creating a unique sound that resonates with my experiences.
+        </p>
+        <a href="#" class="btn">Listen Now</a>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>
+            Stay tuned for my upcoming performances and events where we can connect and enjoy 
+            music together. Check back for dates and locations!
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            I would love 
